@@ -59,11 +59,10 @@ body {
     text-align: center;
 }
 
-
-.fwh-slide h1 {
-    margin: 0;
+.add-margins {
+    max-width: 90vw;
+    margin: 0 auto;
 }
-
 
 
 .landing {
@@ -147,4 +146,27 @@ p {
 
 footer {
     background-color: #f1f1f1;
+}
+
+.tri-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.tri-columns .column-1 {
+    background-color: red;
+}
+
+.tri-columns .column-2 {
+    background-color: white;
+}
+
+.tri-columns .column-3 {
+    background-color: blue;
+}
+
+.fifths {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
 }
