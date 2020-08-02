@@ -59,6 +59,10 @@ body {
     text-align: center;
 }
 
+.half-fwh {
+    height: 50vh;
+}
+
 .add-margins {
     max-width: 90vw;
     margin: 0 auto;
@@ -146,11 +150,14 @@ p {
 
 footer {
     background-color: #f1f1f1;
+    height: 30vh;
 }
 
 .tri-columns {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
 }
 
 .tri-columns .column-1 {
@@ -169,6 +176,10 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     place-items: center;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+    /* padding-top: 3vw;
+    padding-bottom: 5vw; */
 }
 
 .footer-links {
