@@ -60,7 +60,12 @@ body {
 }
 
 .half-fwh {
-    height: 50vh;
+    height: 35vh;
+    margin-top: 25vh;
+}
+
+.half-fwh button {
+    margin-top: 5vh;
 }
 
 .add-margins {
@@ -160,18 +165,6 @@ footer {
     margin-bottom: 5vw;
 }
 
-.tri-columns .column-1 {
-    background-color: red;
-}
-
-.tri-columns .column-2 {
-    background-color: white;
-}
-
-.tri-columns .column-3 {
-    background-color: blue;
-}
-
 .fifths {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -185,4 +178,21 @@ footer {
 .footer-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 5vh;
+    /* place-content: center; */
+}
+
+.footer-links .footer-2 {
+    padding-top: 0vh;
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-3 img {
+    padding-left: 3vw;
 }
