@@ -83,9 +83,8 @@ body {
 
 .landing {
     text-align: center;
-    background-image: url('/Users/yosh/dev/clipboard-landing-page/images/bg-header-desktop.png');
+    background-image: url('images/bg-header-desktop.png');
     background-size: cover;
-    /* height: 100vh; */
     padding-top: 15vh;
 } 
 
@@ -165,23 +164,17 @@ Grayish Blue: hsl(201, 11%, 66%) */
     grid-template-columns: 50% 50%;
 }
 
-.left-half {
-    grid-column: 1;
-    /* background-color: blue; */
-}
+.left-half { grid-column: 1; }
 
 .right-half {
     grid-column: 2;
-    /* background-color: red; */
     text-align: left;
     padding: 2em;
 }
 
-.img-computer {
-    /* margin-right: -100px; */
+.img-computer {    
     position: absolute;
     right: 50vw;
-    /* overflow: hidden; */
 }
 
 footer {
@@ -202,15 +195,12 @@ footer {
     place-items: center;
     margin-top: 3vw;
     margin-bottom: 5vw;
-    /* padding-top: 3vw;
-    padding-bottom: 5vw; */
 }
 
 .footer-links {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 5vh;
-    /* place-content: center; */
 }
 
 .footer-links .footer-2 {
@@ -240,7 +230,6 @@ a, .footer-3 {
 a:hover, .footer-3:hover {
     color: hsl(171, 66%, 44%);
 }
-
 
 
 /* MEDIA QUERIES */
