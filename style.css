@@ -59,9 +59,16 @@ body {
     text-align: center;
 }
 
-.half-fwh {
+/* .half-fwh {
     height: 35vh;
     margin-top: 25vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+} */
+
+.footer-combo {
+    height: 50vh;
 }
 
 .half-fwh button {
@@ -114,7 +121,18 @@ h4 {
 
 p {
     margin: 2em 0 2em 0;    
+    line-height: 1.5em;
+    color: hsl(201, 11%, 66%);
 }
+
+.main-content-column {
+    padding-right: 14vw;
+    padding-left: 14vw;
+    /* padding-top: 15vh; */
+}
+
+/* Dark Grayish Blue: hsl(210, 10%, 33%)
+Grayish Blue: hsl(201, 11%, 66%) */
 
 .strong-cyan {
     background-color: hsl(171, 66%, 44%);
@@ -122,6 +140,16 @@ p {
 
 .light-blue {
     background-color: hsl(233, 100%, 69%);
+}
+
+.strong-cyan:hover {
+    /* background-color: hsl(210, 10%, 33%); */
+    opacity: 0.5;
+}
+
+.light-blue:hover {
+    /* background-color: hsl(201, 11%, 66%); */
+    opacity: 0.5;
 }
 
 .first-section {
@@ -146,11 +174,14 @@ p {
     grid-column: 2;
     /* background-color: red; */
     text-align: left;
-    padding: 3em;
+    padding: 2em;
 }
 
 .img-computer {
-    margin-right: -100px;
+    /* margin-right: -100px; */
+    position: absolute;
+    right: 50vw;
+    /* overflow: hidden; */
 }
 
 footer {
@@ -196,3 +227,28 @@ footer {
 .footer-3 img {
     padding-left: 3vw;
 }
+
+button:hover, .footer-3:hover {
+    cursor: pointer;
+}
+
+a, .footer-3 {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, .footer-3:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 62em){
+    .img-computer {
+        width: 45%;
+    }
+    .img-devices {
+        width: 50%;
+    }
+  }
